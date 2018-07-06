@@ -6,7 +6,7 @@ tori_v = 100
 # 割引率
 rate = 0.2
 # セールの焼き鳥
-tori_v2 = 100 * (1 - 0.2)
+tori_v2 = 100 * (1 - rate)
 # 個数
 biru_c = 2
 tumami_c = 1
