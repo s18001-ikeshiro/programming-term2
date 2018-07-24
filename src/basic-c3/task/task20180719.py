@@ -1,6 +1,6 @@
 print("四則計算プログラムです。")
 parameters1 = input("第1パラメータを入力してください>>>")
-# whileが正しく書かれているかわかりません
+# 書いた後に気づいたのですが多分while使いませんね。
 while parameters1.isnumeric():
     if False:
         print("error: 数値以外が入力されました。")
