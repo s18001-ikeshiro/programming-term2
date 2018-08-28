@@ -250,7 +250,7 @@ class Player:
         # 自分のターンのメッセージ表示
         print(self.name + "のこうげき！")
 
-        if True:
+        if is_critical:
             print("かいしんのいちげき！")
             damage = damage * 2
         # 相手にダメージを与える
