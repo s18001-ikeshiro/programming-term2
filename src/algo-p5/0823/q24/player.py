@@ -102,8 +102,8 @@ class Player:
         event_nm = field_map.get_event(self.cur_pos)
 
         if event_nm == "BattleVsZako":
-            zako = self.enemy("スラスラ")
-            self.battle(Player, zako)
+            zako = Enemy("スラスラ")
+            self.battle(zako)
         if event_nm == "GoMoreFofward":
             # 2マスさらに前に進む
             self.go_more_forward(2)
